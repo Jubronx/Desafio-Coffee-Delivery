@@ -6,7 +6,7 @@
             "description": "O tradicional café feito com água quente e grãos moídos",
             "tags": ["tradicional"],
             "price": 9.90,
-            "image": "src/assets/expresso.svg"
+            "image": "assets/expresso.svg"
           },
           {
             "id": "1",
