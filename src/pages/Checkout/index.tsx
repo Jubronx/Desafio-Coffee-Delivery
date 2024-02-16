@@ -1,6 +1,6 @@
 import { useContext } from 'react'
 import { CartContext } from '../../contexts/CartContext' 
-import { coffees } from '../../../data.json'
+import { coffees } from '../../data.json'
 import { QuantityInput } from '../Forms/QuantityInput'
 import { Radio } from '../Forms/RadioInputs'
 import { Bank, CreditCard, CurrencyDollar, Money, Trash, MapPinLine } from '@phosphor-icons/react'

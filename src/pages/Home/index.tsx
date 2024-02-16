@@ -17,7 +17,7 @@ import {
   Timer,
 } from '@phosphor-icons/react'
 import { CoffeeList } from './components/CoffeeList'
-import { coffees } from '../../../data.json'
+import { coffees } from '../../data.json'
 
 export function Home() {
   return (
