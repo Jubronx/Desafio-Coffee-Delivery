@@ -254,7 +254,7 @@ export function Checkout() {
                 return (
                   <CoffeeSelectedCard key={coffee.id}>
                     <CoffeeAndDetails>
-                      <img src={coffee?.image} alt="" />
+                      <img src={`/${coffee.image}`} alt="" />
                       <CoffeDetails>
                         <span>{coffee.title}</span>
                         <Actions>

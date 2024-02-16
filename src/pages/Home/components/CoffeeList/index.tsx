@@ -69,7 +69,7 @@ export function CoffeeList({ coffee }: Props) {
   return (
     <CoffeeCard>
       <CoffeeImage>
-        <img src={coffee.image} alt="" />
+        <img src={`/${coffee.image}`} alt="" />
       </CoffeeImage>
       <TagContent>
         {coffee.tags.map((tag, index) => (
