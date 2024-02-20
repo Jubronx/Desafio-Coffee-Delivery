@@ -8,6 +8,15 @@ export const InfoHome = styled.div`
   display: flex;
   padding: 5.75rem 0;
   justify-content: space-between;
+  @media screen and (max-width: 900px){
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 17px;
+    padding: 40px 10px 10px;
+    img{
+      width: 100%;
+    }
+  }
 `
 export const TextInfo = styled.div`
   display: flex;
@@ -26,16 +35,31 @@ export const TextInfo = styled.div`
     color: ${(props) => props.theme['base-subtitle']};
     font-size: 1.25rem;
   }
+  @media screen and (max-width: 900px){
+    width: 100%;
+    h1{
+      line-height: 2rem;
+      font-size: 2rem;
+    }
+  }
 `
 export const ContentCoffeeList = styled.main`
   display: flex;
   flex-direction: column;
+  @media screen and (max-width: 900px){
+    h2{
+      text-align: center;
+    }
+  }
 `
 export const CoffeeListContainer = styled.div`
   display: flex;
   margin-top: 3.375rem;
   gap: 2rem;
   flex-wrap: wrap;
+  @media screen and (max-width: 900px){
+    justify-content: center;
+  }
 `
 export const Title = styled.h2`
   font-size: 2rem;
@@ -50,6 +74,11 @@ export const IconInfo = styled.div`
   grid-template-columns: 231px 294px;
   gap: 20px 40px;
   margin-top: 3.125rem;
+  @media screen and (max-width: 900px){
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+  }
 `
 export const ContentIcon = styled.div`
   display: flex;

@@ -32,6 +32,10 @@ export const HeaderContainer = styled.head`
       }
     }
   }
+  @media screen and (max-width: 900px){
+    width: 95%;
+    margin: 0 auto;
+  }
 `
 export const LocationHeader = styled.div`
   display: flex;

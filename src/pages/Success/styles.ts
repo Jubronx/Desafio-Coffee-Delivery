@@ -6,6 +6,15 @@ export const ContainerSuccess = styled.div`
     gap: 102px;
     align-items: center;
     margin-top: 80px;
+    @media screen and (max-width: 900px){
+        flex-direction: column;
+        width: 95%;
+        margin: 10px auto auto;
+        gap: 20px;
+        img{
+            width: 100%;
+        }
+    }
 `
 
 export const TituloSuccess = styled.div`
@@ -31,6 +40,9 @@ export const ContainerInfo = styled.div`
     padding: 10px;
     gap: 20px;  
     justify-content: center;
+    @media screen and (max-width: 900px){
+        width:100%;
+    }
 `
 export const ContainerOrder = styled.div`
     display: flex;

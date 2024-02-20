@@ -18,6 +18,10 @@ const BaseButton = styled.label`
     font-size: 0.75rem;
     color: ${(props) => props.theme['base-text']};
   }
+  @media screen and (max-width: 900px){
+    width: 300px;
+    margin: 0 auto;
+  }
 `
 export const Container = styled(BaseButton)`
     &[data-estado='true']{
@@ -27,5 +31,8 @@ export const Container = styled(BaseButton)`
     }
     input{
         display: none;
+    }
+    @media screen and (max-width: 900px){
+     padding: 10px;
     }
 `
